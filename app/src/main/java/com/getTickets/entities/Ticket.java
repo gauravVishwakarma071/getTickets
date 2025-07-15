@@ -48,4 +48,27 @@ public class Ticket {
         return String.format("Train ID: %s, User: %s, From: %s, To: %s", ticketId,userId,source,destination);
     }
 
+    public String getTicketId() {
+        return ticketId;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public Date getDateOfTravel() {
+        return dateOfTravel;
+    }
+
+    public Train getTrain() {
+        return train;
+    }
 }
